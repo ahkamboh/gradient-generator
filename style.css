@@ -108,9 +108,14 @@
  }
 
  #copyBtn:hover {
-     color: black;
+     background: #00000026;
+     height: 30px; 
+     border-radius: 50px; 
  }
-
+ #copyBtn:active{
+    
+    color: #00afff;
+ }
  #copyBtn:hover::after {
      visibility: visible;
      color: #00afff;
@@ -157,4 +162,7 @@
      top: 80%;
      left: 50%;
      transform: translate(-50%, -50%);
+ }
+.color input{
+    clip-path: circle(36% at 48% 49%);
  }
